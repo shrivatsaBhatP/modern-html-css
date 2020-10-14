@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viewport Width and Heigth units</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            background: #333333 url('https://source.unsplash.com/random') no-repeat center center/cover;
+            color: #ffffff;
+            height: 100vh;
+            /* width: 50vw; */
+            text-align: center;
+            padding: 2rem;
+            padding-top: 15rem;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            margin: 1rem 0;
+        }
+
+        .btn {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #f4f4f4;
+            color: #333333;
+            padding: .75rem 2rem;
+        }
+
+        section {
+            padding: 2rem;
+        }
+        section p {
+            padding-bottom: 2rem;
+        }
+
+        @media(max-height:450px) {
+            header {
+                padding-top: 5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to our website</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+            rem omnis distinctio fugiat cum fugit.
+        </p>
+        <a href="#" class="btn">Find out more</a>
+    </header>
+    <section>
+        <h3>About the company</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, saepe. Beatae eveniet veritatis
+            voluptatum quis!
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quia aspernatur eaque unde magnam at,
+            reiciendis doloribus vel quasi possimus soluta quae nesciunt recusandae odit provident dignissimos omnis
+            illo sapiente tempore quo alias nobis laborum! Eius magni, incidunt voluptate qui excepturi temporibus
+            aspernatur reprehenderit obcaecati ab facilis veniam harum sed laborum odio accusamus tempora unde eos
+            suscipit. Fugit nihil tempore necessitatibus, amet nostrum quibusdam odio consequuntur sed consequatur magni
+            beatae distinctio est blanditiis aspernatur fuga voluptates sapiente, expedita ullam ad iusto placeat.
+            Minima asperiores aspernatur earum! At quia ipsa, earum, animi repudiandae illo excepturi autem reiciendis,
+            quisquam voluptatum reprehenderit harum.</p>
+    </section>
+</body>
+
+</html>
