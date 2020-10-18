@@ -12,7 +12,7 @@ body {
   color: #fff;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: hidden; /* No scroll bar seen*/
 }
 
 /* Page Colors */
