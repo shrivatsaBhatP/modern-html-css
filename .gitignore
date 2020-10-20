@@ -1,0 +1,6 @@
+
+# Ignore docs files
+styles/.sass-cache
+styles/.sass-cache/*
+
+*/node_modules
