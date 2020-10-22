@@ -1,0 +1,52 @@
+@import "config";
+
+.container {
+    max-width: $website-width;
+    padding: 0 1.5rem;
+    overflow: hidden;
+    margin: auto;
+}
+
+// Buttons
+
+%btn-shared {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    &-main {
+        @extend %btn-shared;
+        color: $dark-color;
+        background-color: $main-color;
+    }
+    &-light {
+        @extend %btn-shared;
+        color: $dark-color;
+        background-color: $light-color;
+    }
+    &-dark {
+        @extend %btn-shared;
+        color: $dark-color;
+        background-color: $dark-color;
+    }
+}
+
+button[class^='btn-']:hover, // any btn- with class this will effect for
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
+    background-color: $main-color;
+}
+
+
+.lead {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
